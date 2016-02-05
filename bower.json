@@ -2,7 +2,7 @@
   "name": "sass-responsive-flexbox",
   "description": "Sass Responsive Flexbox",
   "main": "dist/responsive.flexbox.css",
-  "version":"1.0.2",
+  "version":"1.0.3",
   "authors": [
     "S. Francis"
   ],

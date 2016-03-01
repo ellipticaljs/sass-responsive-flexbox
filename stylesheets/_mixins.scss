@@ -208,7 +208,6 @@
     }
   }
 
-
 }
 
 @mixin responsive-flex(){
@@ -243,6 +242,21 @@
     }
   }
 
+  .margin-top-auto{
+    margin-top:auto;
+  }
+
+  .margin-bottom-auto{
+    margin-bottom:auto;
+  }
+
+  .margin-left-auto{
+    margin-left:auto;
+  }
+
+  .margin-right-auto{
+    margin-right:auto;
+  }
 
   @include _responsive-flex();
 
@@ -258,6 +272,7 @@
   @include phone-content(){
     @include _responsive-flex($prefix:phone-);
   }
+
 
 }
 

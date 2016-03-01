@@ -22,6 +22,18 @@
     .flex.column.bottom {
       margin-top: auto; }
 
+.margin-top-auto {
+  margin-top: auto; }
+
+.margin-bottom-auto {
+  margin-bottom: auto; }
+
+.margin-left-auto {
+  margin-left: auto; }
+
+.margin-right-auto {
+  margin-right: auto; }
+
 .child-width-20 > * {
   width: 20%; }
 

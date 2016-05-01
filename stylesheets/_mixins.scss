@@ -261,11 +261,6 @@
   @include _responsive-flex();
 
   @include touch-content(){
-    .responsive-flex{
-      width: 100%;
-      @include flex-wrap(wrap);
-    }
-
     @include _responsive-flex($prefix:touch-);
   }
 
@@ -358,6 +353,20 @@
     }
     &.relative{
       position:relative;
+    }
+  }
+
+  @include touch-content(){
+    .touch-flex{
+      width: 100%;
+      @include flex-wrap(wrap);
+    }
+  }
+
+  @include phone-content(){
+    .phone-flex{
+      width: 100%;
+      @include flex-wrap(wrap);
     }
   }
 

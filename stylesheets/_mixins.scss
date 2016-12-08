@@ -273,7 +273,7 @@
 
 ///@public
 @mixin flexbox-container(){
-  flex-box{
+  flex-box,.flex-box{
     display:-webkit-flex;
     display:flex;
     &.stretch{
